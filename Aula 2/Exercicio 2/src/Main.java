@@ -26,7 +26,9 @@ public class Main {
         System.out.println("multiplicação:" + multiplicacao);
         System.out.println("divisão:" + divisao);
         System.out.println("exponencial:" + exponencial);
-
+        
+        //Para fechar o Scanner, após seu uso
+        entrada.close();
 
     }
 }
