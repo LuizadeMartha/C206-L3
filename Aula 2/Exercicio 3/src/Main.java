@@ -19,6 +19,8 @@ public class Main {
             else
                 System.out.println("Senha invalida");
         }
+        //Para fechar o Scanner, após seu uso
+        entrada.close();
 
     }
 }
