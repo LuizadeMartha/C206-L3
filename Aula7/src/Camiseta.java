@@ -18,5 +18,9 @@ public class Camiseta extends Produto{
     public String getTamanho() {
         return tamanho;
     }
+     @Override
+    public String etiquetaPreco(){
+       return super.etiquetaPreco() + "cor: " +cor+ "tamanho: " +tamanho;
+    }
 
 }
