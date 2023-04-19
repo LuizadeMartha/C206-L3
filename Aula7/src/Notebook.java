@@ -25,4 +25,8 @@ public class Notebook extends Produto{
         return processador;
     }
 
+    @Override
+    public String etiquetaPreco(){
+        return super.etiquetaPreco() + "gpu: " +gpu+ "processador: "+processador+ "armazenamento: "+armanezamento;
+    }
 }
