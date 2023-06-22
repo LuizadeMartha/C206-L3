@@ -144,7 +144,7 @@ public class Arquivo {
 
         while (iterator.hasNext()) {
         Cliente c = iterator.next();
-            if (c.getCpfCliente().equals(cl.getCpfCliente())) { // Verifica se o CPF corresponde ao funcionário a ser removido
+            if (c.getCpfCliente().equals(cl.getCpfCliente())) { // Verifica se o CPF corresponde ao cliente a ser removido
             iterator.remove(); // Remove o cliente da lista
             System.out.println("Reserva removido!");
             break; // Sai do loop após remover o cliente
